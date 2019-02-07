@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Roll the Dice Code Samples</title>
+</head>
+<body>
+	<script>
+		
+
+//roll the dice function with nested if/else
+function rollDice(d1, d2) {
+    if (d1 == 1) {
+        if (d2 == 1) {
+            console.log("you lose");
+        }
+    } else if (d1 == 2) {
+        if (d2 == 2) {
+            console.log("you tie");
+        }
+    } else {
+        console.log("you win");
+    }
+}
+rollDice(2, 2);
+
+
+ //if/else code with && for roll the dice
+var d1 = 5;
+var d2 = 5;
+if (d1 == 1 && d2 == 1) {
+    console.log("you lose");
+} else if (d1 == 2 && d2 == 2) {
+    console.log("you tie");
+} else {
+    console.log("you win");
+}
+
+//Switch Code for Roll the Dice
+var d1 = 2;
+var d2 = 2;
+switch (d1) {
+    case 1:
+        if (d2 == 1) {
+            console.log("you lose");
+            break;
+        }
+    case 2:
+        if (d2 == 2)
+            console.log("you tie");
+}
+
+
+
+
+
+	</script>
+
+</body>
+</html>
